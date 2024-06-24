@@ -18,4 +18,22 @@
 - HTTPs
 - Increase developer experience
 - Tree Shaking(algorithm) - [it will remove unused codes ]
-- 
+
+
+# Namaste foor
+
+Header
+ - logo
+ - nav items
+body
+ - search
+ - RestaurantContainer
+   - restaurantCard
+      - img
+      - name of res, star rating, cuisine, delivery time 
+fooer
+ - copyright
+ - links
+ - address
+ -contact
+

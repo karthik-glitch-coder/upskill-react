@@ -1,3 +1,6 @@
 /node_modules 
 /dist
 .parcel-cache
+/Images
+/empty.json
+/App.js

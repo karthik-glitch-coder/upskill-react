@@ -1,0 +1,152 @@
+//we have 8 restaurant list datas
+const resList = [
+  {
+    type: "restaurant",
+    data: {
+      id: "238638",
+      name: "A1 Parotta & Chappathi Stall",
+      cloudinaryImageId: "qafl1p1xsnrsafw1mmmz",
+      locality: "Ayyanar Kovil Street",
+      areaName: "Ayyanar Kovil St",
+      costForTwo: "₹100 for two",
+      cuisines: ["South Indian", "Biryani", "Indian"],
+      avgRating: 4.2,
+      parentId: "25155",
+      avgRatingString: "4.2",
+      totalRatingsString: "500+",
+      deliveryTime: 45,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "396000",
+      name: "Bombay Restaurant",
+      cloudinaryImageId: "ivkktbcpif4medxaulje",
+      locality: "Tenkasi Road\n",
+      areaName: "Ayyanar Kovil St",
+      costForTwo: "₹200 for two",
+      cuisines: ["Chinese", "South Indian"],
+      avgRating: 4.3,
+      veg: true,
+      parentId: "6437",
+      avgRatingString: "4.3",
+      totalRatingsString: "1K+",
+      deliveryTime: 40,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "238669",
+      name: "New Hotel Ashok Bavan",
+      cloudinaryImageId: "ta9n47ubcfuwmk42xkds",
+      locality: "Ayyanar Kovil Street",
+      areaName: "Thoppupatti",
+      costForTwo: "₹100 for two",
+      cuisines: ["South Indian", "Biryani", "Indian", "Grill"],
+      avgRating: 4,
+      veg: true,
+      parentId: "146727",
+      avgRatingString: "4.0",
+      totalRatingsString: "500+",
+      deliveryTime: 51,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "198818",
+      name: "RKR Arasan Sweets",
+      cloudinaryImageId: "bblztgfd7pajks1e9whc",
+      locality: "Rajapalyam",
+      areaName: "Near Busstand",
+      costForTwo: "₹200 for two",
+      cuisines: ["Bakery"],
+      avgRating: 3.9,
+      parentId: "170167",
+      avgRatingString: "4.3",
+      totalRatingsString: "500+",
+      deliveryTime: 45,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "393300",
+      name: "Tasty Veg Restaurant",
+      cloudinaryImageId: "m7nww3kon8hsbcfylgav",
+      locality: "Pacr Road\n",
+      areaName: "Ayyanar Kovil St",
+      costForTwo: "₹200 for two",
+      cuisines: ["South Indian"],
+      avgRating: 3.8,
+      parentId: "256902",
+      avgRatingString: "4.4",
+      totalRatingsString: "1K+",
+      deliveryTime: 42,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "402341",
+      name: "Kwality Walls Frozen Dessert",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/20/d90a90c7-9375-4b3e-82f2-52dc7cb30788_402341.JPG",
+      locality: "Tenkasi Road\n",
+      areaName: "Ayyanar Kovil St",
+      costForTwo: "₹300 for two",
+      cuisines: ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+      avgRating: 4.7,
+      veg: true,
+      parentId: "582",
+      avgRatingString: "4.7",
+      totalRatingsString: "500+",
+      deliveryTime: 40,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "857813",
+      name: "Cake Fantasy",
+      cloudinaryImageId: "e1114ef2ed8df79fdf4acaee0ec0b040",
+      locality: "Srirengapalayan",
+      areaName: "Ayyanar Kovil St",
+      costForTwo: "₹200 for two",
+      cuisines: ["Bakery"],
+      avgRating: 4.7,
+      parentId: "54879",
+      avgRatingString: "4.7",
+      totalRatingsString: "2",
+      deliveryTime: 70,
+    },
+  },
+
+  {
+    type: "restaurant",
+    data: {
+      id: "198160",
+      name: "Bhojanaa Refreshment",
+      cloudinaryImageId: "xgiufhpteajiffpvaikc",
+      locality: "Railway Feeder Road \n",
+      areaName: "Ayyanar Kovil St",
+      costForTwo: "₹200 for two",
+      cuisines: ["Beverages", "Chaat"],
+      avgRating: 4,
+      parentId: "44910",
+      avgRatingString: "4.0",
+      totalRatingsString: "1K+",
+      deliveryTime: 61,
+    },
+  },
+];
+
+export default resList;
