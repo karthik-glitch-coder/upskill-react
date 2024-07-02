@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: black;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -27,11 +31,13 @@
 }
 
 .res-card {
-  margin: 5px;
+  margin: 10px;
   padding: 10px;
   width: 200px;
   background-color: #ccc7c7;
+  border-radius: 20px;
 }
+
 
 .res-card:hover {
   box-shadow: 1px 2px 5px 4px rgba(20, 20, 20, 0.4);
@@ -40,14 +46,46 @@
   transition: all 0.25s ease 0s;
 }
 
+.res-details {
+  line-height: 15px;
+}
+
 .search {
-  padding: 10px;
+  margin: 15px;
 }
 .res-card-img {
   width: 100%;
+  border-radius: 20px;
+}
+
+.filter {
+  display: flex;
 }
 
 .filter-btn {
-  margin: 10px;
+  margin: 15px;
   cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #ccc7c7;
+  border-radius: 20px;
+}
+
+.login-btn {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.user-card{
+  padding: 10px;
+  border: 1px solid black;
 }
