@@ -38,9 +38,11 @@ Header
 198212 - NRK
 419248 - hott spot
 
-# menu api
+# menu api of sivakasi
 
 https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=9.5187255&lng=77.80241699999999&restaurantId=198212
+
+https://www.swiggy.com/dapi/restaurants/list/v5?lat=9.5187255&lng=77.80241699999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
 
 # Lazy Loading - lazy(()=>import("")), <suspense fallback={jsx}/>
 
@@ -51,3 +53,6 @@ other names
 - Code Splitting
 - On Demand Loading
 - Dynamic Import
+
+# res menu name
+resInfo?.cards[2]?.card?.card?.info;
