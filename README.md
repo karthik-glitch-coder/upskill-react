@@ -1,5 +1,3 @@
-# Namaste React
-
 # Parcel
 
 - it creates dev build
@@ -18,8 +16,6 @@
 - HTTPs
 - Increase developer experience
 - Tree Shaking(algorithm) - [it will remove unused codes ]
-
-# Namaste foor
 
 Header
 
@@ -55,4 +51,5 @@ other names
 - Dynamic Import
 
 # res menu name
+
 resInfo?.cards[2]?.card?.card?.info;

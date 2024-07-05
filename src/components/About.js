@@ -23,7 +23,7 @@ class About extends React.Component {
             {(data) => <h1 className="font-bold">User Name : {data.loggedInUser}</h1>}
           </UserContext.Consumer>
         </div>
-        <h2> This is Namaste React platform</h2>
+        <h2> This is Upskilling of React platform</h2>
         <UserClass />
       </div>
     );

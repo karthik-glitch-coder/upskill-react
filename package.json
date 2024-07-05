@@ -1,7 +1,7 @@
 {
-  "name": "namaste-react",
+  "name": "food-app-react",
   "version": "1.0.0",
-  "description": "This is Namaste React by Karthik",
+  "description": "This is upskilling of React by Karthik",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/karthik-glitch-coder/namaste-react.git)"
+    "url": "(https://github.com/karthik-glitch-coder/upskill-react.git)"
   },
   "keywords": [],
   "author": "karthik-glitch-coder",
