@@ -77,7 +77,7 @@ const Body = () => {
           </button>
           <div className="mx-2 bg-gradient-to-r from-blue-200 to-blue-50 rounded-lg">
             <div className="py-2.5 mx-2 px-2  rounded-lg">
-              <p>User Name [editable] : </p>
+              <p>User Name : </p>
               <input
                 className=" px-2 border border-solid  border-gray-800 rounded-lg opacity-80"
                 value={loggedInUser}
