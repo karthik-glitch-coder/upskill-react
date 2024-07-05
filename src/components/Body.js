@@ -48,13 +48,13 @@ const Body = () => {
         <div className="m-4 p-4 flex wrap">
           <input
             type="text"
-            className="p-2 m-4 border border-solid border-gray-600 rounded-lg"
+            className="p-2 m-4 border border-solid border-gray-600 rounded-lg focus:bg-green-100"
             value={searchText}
             placeholder="restaurants name here"
             onChange={(e) => setSearchText(e.target.value)}
           ></input>
           <button
-            className="ml-1 m-4 px-2 py-0.5 bg-green-100 rounded-lg"
+            className="ml-1 m-4 px-2 py-0.5 bg-purple-300 hover:bg-gray-300 rounded-lg"
             onClick={() => {
               const filteredRestaurants = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
@@ -75,14 +75,16 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
-          <div className="pt-2.5 mx-2 px-2 bg-gradient-to-r from-blue-200 to-transparent rounded-lg">
-            <p>Try to Modify User Name</p>
-            <input
-              className=" px-2 border border-solid  border-gray-800 rounded-lg opacity-80"
-              value={loggedInUser}
-              placeholder="React.Context"
-              onChange={(e) => setUserName(e.target.value)}
-            />
+          <div className="mx-2 bg-gradient-to-r from-blue-200 to-blue-50 rounded-lg">
+            <div className="py-2.5 mx-2 px-2  rounded-lg">
+              <p>User Name [editable] : </p>
+              <input
+                className=" px-2 border border-solid  border-gray-800 rounded-lg opacity-80"
+                value={loggedInUser}
+                placeholder="React.Context"
+                onChange={(e) => setUserName(e.target.value)}
+              />
+            </div>
           </div>
         </div>
       </div>
