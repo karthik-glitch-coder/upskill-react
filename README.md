@@ -53,3 +53,12 @@ other names
 # res menu name
 
 resInfo?.cards[2]?.card?.card?.info;
+
+# Redux Toolkit
+
+- install @reduxjs/toolkit
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Selector
