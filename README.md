@@ -62,3 +62,22 @@ resInfo?.cards[2]?.card?.card?.info;
 - Slice (cartSlice)
 - dispatch(action)
 - Selector
+
+# Types of testing (developer)
+
+- Unit Testing
+- Integration Testing
+- End to End Testing / e2e testing
+
+# libraries needed to able to do testing in our app
+
+- Install React Testing Library
+- Install Jest
+- Install Babel dependencies [dep from jest website]
+- Configure Babel [jest site]
+- Configure Parcel Config file to disable default babel transpilation [from parcel site]
+- Jest configuration - npx jest --init
+- Install jsdom library
+- Install @babel/preset-react - to make JSX work in test cases
+- Include @babel/preset-react inside my babel config - [don't use prettier inside config it throws an error]
+- npm i -D @testing-library/jest-dom
