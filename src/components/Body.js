@@ -1,4 +1,4 @@
-import RestaurantCard, { withOpenLabel } from "./RestaurantCard";
+import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -11,7 +11,6 @@ const Body = () => {
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
   const onlineStatus = useOnlineStatus();
-  const RestaurantCardIsOpen = withOpenLabel(RestaurantCard);
 
   useEffect(() => {
     fetchData();
@@ -47,6 +46,7 @@ const Body = () => {
       <div className="flex">
         <div className="m-4 p-4 flex wrap">
           <input
+            data-testid="searchInput"
             type="text"
             className="p-2 m-4 border border-solid border-gray-600 rounded-lg focus:bg-green-100"
             value={searchText}
@@ -95,11 +95,7 @@ const Body = () => {
             key={restaurant.info.id}
             to={"/restaurant/" + restaurant.info.id}
           >
-            {restaurant.info.isOpen ? (
-              <RestaurantCardIsOpen resData={restaurant} />
-            ) : (
-              <RestaurantCard resData={restaurant} />
-            )}
+            <RestaurantCard resData={restaurant} />
           </Link>
         ))}
       </div>

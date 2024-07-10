@@ -81,3 +81,5 @@ resInfo?.cards[2]?.card?.card?.info;
 - Install @babel/preset-react - to make JSX work in test cases
 - Include @babel/preset-react inside my babel config - [don't use prettier inside config it throws an error]
 - npm i -D @testing-library/jest-dom
+
+# Totally - 13 test cases
